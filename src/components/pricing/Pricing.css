@@ -1,0 +1,40 @@
+.Pricing {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.single-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.price-header {
+    background-color: hsl(0, 10%, 75%);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.price-amount {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.price-select {
+    margin-bottom: 24px;
+    width: 120px;
+    height: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(45, 80%, 50%);
+    text-transform: uppercase;
+    font-weight: 600;
+}

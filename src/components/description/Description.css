@@ -1,0 +1,12 @@
+.Description {
+    display: flex;
+    justify-content: center;
+}
+#video {
+    width: 600px;
+}
+@media (max-width: 650px) {
+    #video {
+        width: 90%;
+    }
+}
